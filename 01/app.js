@@ -5,6 +5,7 @@ const root = createRoot(document.querySelector("#root"));
 
 class App extends React.Component {
   constructor(props) {
+    console.log("constructor");
     super(props);
     this.state = { counter: 0 };
   }
